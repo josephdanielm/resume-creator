@@ -10,16 +10,7 @@
 .main {
   width: 100%;
   height: 100%;
-  display: grid;
-  grid: 1fr / 1fr 1fr;
-}
-
-.resume-form {
-  margin: 5% 2% 5% 10%;
-  border: solid 2px red;
-}
-
-.live-resume {
-  margin: 5% 10% 5% 2%;
-  border: solid 2px blue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

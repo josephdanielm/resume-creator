@@ -1,0 +1,41 @@
+div.Resume {
+  height: 880px;
+  width: 680px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: solid 1px black;
+  padding: 40px;
+}
+
+h2.resume-name {
+  line-height: 2;
+  align-self: center;
+}
+
+section h3 {
+  line-height: 1.8;
+}
+
+div.Resume section {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+div.general-info-line {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+span.year-line {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+p.position {
+  font-size: 16px;
+}

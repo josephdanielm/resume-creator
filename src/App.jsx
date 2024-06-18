@@ -1,6 +1,7 @@
 // import { useState } from "react";
 import "./App.css";
-import ResumeForm from "./components/ResumeForm";
+import "./styles/LiveResume.css";
+import Resume from "./components/Resume";
 
 function App() {
   return (
@@ -9,10 +10,9 @@ function App() {
         <h1>Resume Creator</h1>
       </header>
       <main className="main">
-        <section className="resume-form">
-          <ResumeForm />
+        <section className="resume-container">
+          <Resume />
         </section>
-        <section className="live-resume"></section>
       </main>
       <footer>
         <h2>josephdanielm</h2>
