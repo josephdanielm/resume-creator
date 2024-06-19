@@ -30,6 +30,10 @@ section.action button {
   width: 75px;
 }
 
+div.Resume section.general {
+  align-items: center;
+}
+
 /* Revisit
 Think about clicking field to edit it
 make component where click edits field 

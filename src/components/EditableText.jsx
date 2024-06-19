@@ -48,7 +48,10 @@ export default function EditableText({
           />
         </label>
       ) : (
-        <Component onClick={handleTextClick} className={textClass}>
+        <Component
+          onClick={handleTextClick}
+          className={"editable " + textClass}
+        >
           {text}
         </Component>
       )}

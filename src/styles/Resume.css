@@ -6,6 +6,7 @@ div.Resume {
   justify-content: space-around;
   border: solid 1px black;
   padding: 30px;
+  overflow-y: scroll;
 }
 
 h2.resume-name {
@@ -31,12 +32,29 @@ div.general-info-line {
   gap: 0.5em;
 }
 
-span.year-line {
+span.company-and-years-line {
   width: 100%;
   display: flex;
   justify-content: space-between;
 }
 
 section label {
-  margin: 0 auto;
+  font-size: 0.9rem;
+}
+
+.company-name,
+.position {
+  font-weight: bold;
+}
+
+ul.responsibilities input {
+  width: 100%;
+}
+
+.editable {
+  cursor: pointer;
+}
+
+.editable:hover {
+  color: green;
 }
