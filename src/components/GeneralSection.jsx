@@ -1,15 +1,35 @@
-// import { useState } from "react";
+import EditableText from "./EditableText";
 
 export default function GeneralSection() {
   return (
     <section className="general">
-      <h2 className="resume-name">John Doe</h2>
+      <EditableText
+        label="Name:"
+        initialText="John Doe"
+        textClass="resume-name"
+        component="h2"
+      />
       <div className="general-info-line">
-        <p>(123) 456-7890</p>
+        <EditableText
+          label="Phone:"
+          initialText="(123) 456-7890"
+          textClass="phone"
+          component="p"
+        />
         <span className="bullet">•</span>
-        <p>john.doe@example.com</p>
+        <EditableText
+          label="Email:"
+          initialText="johndoe@example.com"
+          textClass="email"
+          component="p"
+        />
         <span className="bullet">•</span>
-        <p>Lafayette, Louisiana</p>
+        <EditableText
+          label="Location:"
+          initialText="Lafayette, Louisiana"
+          textClass="location"
+          component="p"
+        />
       </div>
     </section>
   );

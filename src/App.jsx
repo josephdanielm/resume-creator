@@ -13,10 +13,6 @@ function App() {
         <section className="resume-container">
           <Resume />
         </section>
-        <section className="action">
-          <button>Edit</button>
-          <button>Download</button>
-        </section>
       </main>
       <footer>
         <h2>josephdanielm</h2>

@@ -36,3 +36,7 @@ span.year-line {
   display: flex;
   justify-content: space-between;
 }
+
+section label {
+  margin: 0 auto;
+}
