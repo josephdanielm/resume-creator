@@ -1,6 +1,6 @@
 // import { useState } from "react";
 import "./App.css";
-import "./styles/LiveResume.css";
+import "./styles/Resume.css";
 import Resume from "./components/Resume";
 
 function App() {
@@ -12,6 +12,10 @@ function App() {
       <main className="main">
         <section className="resume-container">
           <Resume />
+        </section>
+        <section className="action">
+          <button>Edit</button>
+          <button>Download</button>
         </section>
       </main>
       <footer>
